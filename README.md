@@ -11,3 +11,9 @@ the autonomous mode in the simulator.
 
 - Learn git better
 
+# Thougts and things tested
+
+- It doesn't seem to matter if I put the drop out rate (keep_prob) to 0 or 1!!!
+
+
+
