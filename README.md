@@ -17,6 +17,7 @@ the autonomous mode in the simulator.
 
 # Commands and other useful stuff
 To change all occurences of /IMG to /jungle_dataset_1_lap_plus_recover/IMG in a text (csv) file. 
+
 sed -i 's='/IMG'='/jungle_dataset_1_lap_plus_recover/IMG'=g' driving_log_jungle_linux_merged.csv
 
 
