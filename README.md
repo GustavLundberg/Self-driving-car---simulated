@@ -7,7 +7,8 @@ the autonomous mode in the simulator.
 
 - Managed to get the car to run in autonomous mode with the network I've trained
 - I've tried to use Hanssons model with the same hyperparameters without getting much success with the autonomous mode in the simulator, using his data. Could this be because his data is not good enough? Not good enough recovery data included? I trained my network on data I created myself which includes recovery data. This dataset is collected on the jungle track - should probably try and do the same thing on the lake track to get good results there since it's an easier track.
-
+-  Trained the Hansson network (same hyperparameters, only 2 epochs) on jungle track (own data, 1 lap + recover). Result:
+Lake track, manages to drive until red and white stuff on the ashfell enters. Jungle track, kör in till vänster i första svängen (kör banan baklänges) - klara sedan inte den första vänstersvängen.
 # To do
 
 - Learn git better
