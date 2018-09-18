@@ -10,6 +10,9 @@ the autonomous mode in the simulator.
 -  Trained the Hansson network (same hyperparameters, only 2 epochs) on jungle track (own data, 1 lap + recover). Result:
 Lake track, manages to drive until red and white stuff on the ashfell enters. Jungle track, kör in till vänster i första svängen (kör banan baklänges) - klara sedan inte den första vänstersvängen.
 
+- Vid träning av lake_merged så hittar den inte filen /lunarc/nobackup/projects/lu-also/Lundberg/datasets/lake_track_multiple_laps_plus_recover
+/IMG_merged/center_2018_09_17_14_11_11_665.jpg, kan det ha skett något fel vid mergen av de 4 dataseten (lake, reversed, recover, reversed recover)?
+
 # To do
 
 - Learn git better
