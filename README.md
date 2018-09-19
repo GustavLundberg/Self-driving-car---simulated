@@ -15,6 +15,8 @@ Lake track, manages to drive until red and white stuff on the ashfell enters. Ju
 
 - model_lake_2 är tränad på (ganska säker) 2ep med hanssons nätverk på lake track och den klarar av att köra flertalet varv på lake track med hög hastighet (tror den klarar throttle=1, dvs 30 km/h). Den fixar dock INTE jungle track.
 
+- När samma nätverk som ovan används och tränas i 25 ep så väljs modellerna ut som blir efter 16ep och 20ep (dessa har lägst validation error) ut för att testas i simulatorn. Resultatet blir en katastrof, bilen kör men konstant vinkel (-typ 0.16). Överträning trots att validation error är litet??
+
 # To do
 
 - Learn git better
