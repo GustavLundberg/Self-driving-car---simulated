@@ -22,8 +22,10 @@ Lake track, manages to drive until red and white stuff on the ashfell enters. Ju
 - Learn git better
 - Starta med att träna på lake track data för att se om modellen lär sig nånting. Om den lär sig nånting kan vi konstatera att inlärningen beror på datasetet. 
 - Testa om den klarar hela lake track på 15 km/h. Bumpa upp till 20 km/h eller högre och se om det funkar.
+- Testa att köra de tränade modellerna i simuleringen efter 1ep, 2ep osv för att se hur performance i simulatorn hänger ihop med validation error. Sker det någon överträningen? Hur ser överträning i simulatorn ut-kör den rakt fram?
 - Testa därefter om man kan träna på lake track och testa på jungle track, dvs transfer learning (en autoencoder kan tydligen behövas enligt Sopasakis).
 - Lägg till hastighet i modellen först när det andra funkar!
+
 
 # Thougts and things tested
 
