@@ -13,6 +13,8 @@ Lake track, manages to drive until red and white stuff on the ashfell enters. Ju
 - Vid träning av lake_merged så hittar den inte filen /lunarc/nobackup/projects/lu-also/Lundberg/datasets/lake_track_multiple_laps_plus_recover
 /IMG_merged/center_2018_09_17_14_11_11_665.jpg, kan det ha skett något fel vid mergen av de 4 dataseten (lake, reversed, recover, reversed recover)?
 
+- model_lake_2 är tränad på (ganska säker) 2ep med hanssons nätverk på lake track och den klarar av att köra flertalet varv på lake track med hög hastighet (tror den klarar throttle=1, dvs 30 km/h). Den fixar dock INTE jungle track.
+
 # To do
 
 - Learn git better
