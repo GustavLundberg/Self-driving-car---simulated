@@ -17,14 +17,16 @@ Lake track, manages to drive until red and white stuff on the ashfell enters. Ju
 
 - När samma nätverk som ovan används och tränas i 25 ep så väljs modellerna ut som blir efter 16ep och 20ep (dessa har lägst validation error) ut för att testas i simulatorn. Resultatet blir en katastrof, bilen kör men konstant vinkel (-typ 0.16). Överträning trots att validation error är litet??
 
+- To do #4 nedan. Precis testat modellen efter ep0, ep1, ep2 på samma nätverk (kallad model_lake_5ep_ep0_low_learrate.h5 (ep1, ep2 också). Vid hastigheter runt 20 är performance på lake jämbördiga, 0ep oscillerar faktiskt mindre än ep1, ep2. Vid throttle=1 är det dock bara ep2 som klarar att köra runt flera varv på lake, dock med STORA oscillationer. Alla tre nätverken funkar kasst på jungle track, dvs även sämre än den som heter model_lake_2 som klarar första svängarna och som är tränad med högre learning rate än i detta fallet.
+
 # To do
 
-- Learn git better
-- Starta med att träna på lake track data för att se om modellen lär sig nånting. Om den lär sig nånting kan vi konstatera att inlärningen beror på datasetet. 
-- Testa om den klarar hela lake track på 15 km/h. Bumpa upp till 20 km/h eller högre och se om det funkar.
-- Testa att köra de tränade modellerna i simuleringen efter 1ep, 2ep osv för att se hur performance i simulatorn hänger ihop med validation error. Sker det någon överträningen? Hur ser överträning i simulatorn ut-kör den rakt fram?
-- Testa därefter om man kan träna på lake track och testa på jungle track, dvs transfer learning (en autoencoder kan tydligen behövas enligt Sopasakis).
-- Lägg till hastighet i modellen först när det andra funkar!
+1) Learn git better
+2) Starta med att träna på lake track data för att se om modellen lär sig nånting. Om den lär sig nånting kan vi konstatera att inlärningen beror på datasetet. 
+3) Testa om den klarar hela lake track på 15 km/h. Bumpa upp till 20 km/h eller högre och se om det funkar.
+4) Testa att köra de tränade modellerna i simuleringen efter 1ep, 2ep osv för att se hur performance i simulatorn hänger ihop med validation error. Sker det någon överträningen? Hur ser överträning i simulatorn ut-kör den rakt fram?
+5) Testa därefter om man kan träna på lake track och testa på jungle track, dvs transfer learning (en autoencoder kan tydligen behövas enligt Sopasakis).
+6) Lägg till hastighet i modellen först när det andra funkar!
 
 
 # Thougts and things tested
