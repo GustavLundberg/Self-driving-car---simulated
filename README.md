@@ -35,7 +35,11 @@ Lake track, manages to drive until red and white stuff on the ashfell enters. Ju
 
 # Trained networks on lake data
 
-- 20ep, 40 batchsize, 
+- 20ep, 40 batchsize, drop_prob=0.5, samples_per_epoch=50000, lear_rate=0.0001, test_size = 0.2 ger:
+loss: 0.0396 - acc: 0.2684 - val_loss: 0.0283 - val_acc: 0.6636
+Testning på lake: dåliga resultat. Efter några ep så verkar det vara överträning då bilen oscillerar mycket fram och tillbaka. Klarar inte varvet på max hastighet. 
+Testning på jungle: kasst, klarar ingenting.
+Slutsats: Verkar ske överträning, mer regularization?
 
 # Commands and other useful stuff
 To change all occurences of /IMG to /jungle_dataset_1_lap_plus_recover/IMG in a text (csv) file. 
