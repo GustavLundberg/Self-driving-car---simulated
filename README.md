@@ -33,6 +33,10 @@ Lake track, manages to drive until red and white stuff on the ashfell enters. Ju
 
 - It doesn't seem to matter if I put the drop out rate (keep_prob) to 0 or 1!!!
 
+# Trained networks on lake data
+
+- 20ep, 40 batchsize, 
+
 # Commands and other useful stuff
 To change all occurences of /IMG to /jungle_dataset_1_lap_plus_recover/IMG in a text (csv) file. 
 
