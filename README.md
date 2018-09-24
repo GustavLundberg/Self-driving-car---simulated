@@ -41,6 +41,11 @@ Testning på lake: dåliga resultat. Efter några ep så verkar det vara övertr
 Testning på jungle: kasst, klarar ingenting.
 Slutsats: Verkar ske överträning, mer regularization?
 
+(Samma som ovan fast med mer dropout-lager)
+- 20ep, 40 batchsize, drop_prob=0.5, samples_per_epoch=50000, lear_rate=0.0001, test_size = 0.2 (lagt till 4 lager dropout!) ger:
+Testning på lake: Ger ganska dåliga resultat, verkar inte klara av banan på throttle=1. Starka oscillationer eller att den svänger för hårt och kör av på andra sidan vägen.
+Testning på jungle (låg hastighet - throttle delas med ca 2.5): ep17 klarar att köra upp till kraftiga vänstersvängen med rödvita pinnar på högersidan.
+
 # Commands and other useful stuff
 To change all occurences of /IMG to /jungle_dataset_1_lap_plus_recover/IMG in a text (csv) file. 
 
