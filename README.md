@@ -54,5 +54,10 @@ To change all occurences of /IMG to /jungle_dataset_1_lap_plus_recover/IMG in a 
 
 sed -i 's='/IMG'='/jungle_dataset_1_lap_plus_recover/IMG'=g' driving_log_jungle_linux_merged.csv
 
+# Links
+
+Transfer learning
+https://medium.com/@14prakash/transfer-learning-using-keras-d804b2e04ef8
+
 
 
