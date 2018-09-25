@@ -58,6 +58,7 @@ sed -i 's='/IMG'='/jungle_dataset_1_lap_plus_recover/IMG'=g' driving_log_jungle_
 
 Transfer learning
 https://medium.com/@14prakash/transfer-learning-using-keras-d804b2e04ef8
+https://www.learnopencv.com/keras-tutorial-fine-tuning-using-pre-trained-models/
 
 
 
