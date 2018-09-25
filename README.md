@@ -28,6 +28,9 @@ Lake track, manages to drive until red and white stuff on the ashfell enters. Ju
 5) Testa därefter om man kan träna på lake track och testa på jungle track, dvs transfer learning (en autoencoder kan tydligen behövas enligt Sopasakis).
 6) Lägg till hastighet i modellen först när det andra funkar!
 
+Idé:
+- Göra någon slags variant av transfer learning för att träna på (mycket) data från lake och sen transfera den modellen och fintuna på (lite) data från jungle track?
+
 
 # Thougts and things tested
 
