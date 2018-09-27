@@ -19,6 +19,8 @@ Lake track, manages to drive until red and white stuff on the ashfell enters. Ju
 
 - To do #4 nedan. Precis testat modellen efter ep0, ep1, ep2 på samma nätverk (kallad model_lake_5ep_ep0_low_learrate.h5 (ep1, ep2 också). Vid hastigheter runt 20 är performance på lake jämbördiga, 0ep oscillerar faktiskt mindre än ep1, ep2. Vid throttle=1 är det dock bara ep2 som klarar att köra runt flera varv på lake, dock med STORA oscillationer. Alla tre nätverken funkar kasst på jungle track, dvs även sämre än den som heter model_lake_2 som klarar första svängarna och som är tränad med högre learning rate än i detta fallet.
 
+- Lagt till recover from recover data (rfr) till lake. Detta ger bäst resultat hitills vid testning på lake track, enbart små oscillationer! Tränad i 20 ep, resultatet på lake blir i princip bara bättre och bättre så man skulle kunna testa att träna längre och förhoppningsvis få ännu bättre resultat! På jungle track är resultatet mycket dåligt och detta nätverk skulle behöva kombineras med någon slags transfer learning för att funka på jungle track.
+
 # To do
 
 1) Learn git better
