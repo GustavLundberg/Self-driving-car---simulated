@@ -74,6 +74,8 @@ Transfer learning
 https://medium.com/@14prakash/transfer-learning-using-keras-d804b2e04ef8
 https://www.learnopencv.com/keras-tutorial-fine-tuning-using-pre-trained-models/
 
+https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/10_Fine-Tuning.ipynb
+
 Notice there's a difference between Sequential API and Functional API, where it seems like the Sequential isn't made for working with multiple outputs.
 https://machinelearningmastery.com/keras-functional-api-deep-learning/
 
