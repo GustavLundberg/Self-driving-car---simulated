@@ -51,6 +51,18 @@ Slutsats: Verkar ske överträning, mer regularization?
 Testning på lake: Ger ganska dåliga resultat, verkar inte klara av banan på throttle=1. Starka oscillationer eller att den svänger för hårt och kör av på andra sidan vägen.
 Testning på jungle (låg hastighet - throttle delas med ca 2.5): ep17 klarar att köra upp till kraftiga vänstersvängen med rödvita pinnar på högersidan.
 
+- Träning på lake with rfr, speed included. Vanliga nätverket med extra dropout.
+samples_per_epoch    := 50000
+learning_rate        := 0.0001
+data_dir             := /lunarc/nobackup/projects/lu-also/Lundberg/datasets/lake_track_multiple_laps_plus_recover
+nb_epoch             := 100 (Hann bara med ca hälften på 30 h)
+test_size            := 0.2
+keep_prob            := 0.5
+batch_size           := 40
+save_best_only       := False
+loss: 0.6772 - steering_loss: 0.0498 - speed_loss: 17.9400 - steering_acc: 0.2440 - speed_acc: 0.0000
+e+00 - val_loss: 0.4088 - val_steering_loss: 0.0353 - val_speed_loss: 5.5361 - val_steering_acc: 0.6117 - val_speed_acc: 0.0000e+00
+
 # Commands and other useful stuff
 To change all occurences of /IMG to /jungle_dataset_1_lap_plus_recover/IMG in a text (csv) file. 
 
