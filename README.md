@@ -76,6 +76,8 @@ https://www.learnopencv.com/keras-tutorial-fine-tuning-using-pre-trained-models/
 
 https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/10_Fine-Tuning.ipynb
 
+https://medium.com/infosimples/speed-up-your-deep-learning-projects-with-pre-trained-neural-networks-8ab1aba4e3a3
+
 Notice there's a difference between Sequential API and Functional API, where it seems like the Sequential isn't made for working with multiple outputs.
 https://machinelearningmastery.com/keras-functional-api-deep-learning/
 
